@@ -8883,8 +8883,46 @@ textarea.form-control {
   padding-right: 0px;
   margin: 5px -5px;
 }
-
-
 .owl-carousel.owl-drag .owl-item{
   touch-action: auto !important;
+}
+
+.tour-title-img{
+  width: 100%;
+  height: calc(100vh - 257px);
+  min-height: 500px;
+  background-size: cover;
+  position: relative;
+}
+
+.title-head{
+  width: 100%;
+  height: calc(100vh - 257px);
+  min-height: 500px;
+  color: white;
+}
+.title-head h1{
+  color: white;
+}
+.breadcrumbs-single-page{
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.breadcrumbs-single-page>span{
+  border-bottom: 2px solid rgba(255,255,255,.1);}
+
+.breadcrumbs-single-page>span>a{
+  color: white;
+}
+.overlay{
+  z-index: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  top: 0;
 }

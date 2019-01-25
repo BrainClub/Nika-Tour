@@ -8882,3 +8882,6 @@ textarea.form-control {
 .nav-language:first-child{
   padding: 0px;
 }
+.owl-carousel.owl-drag .owl-item{
+  touch-action: auto !important;
+}
